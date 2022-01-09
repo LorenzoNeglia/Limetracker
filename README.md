@@ -30,6 +30,7 @@ This function pause and resume the eye tracker and heatmap construtcion.
 
 ### printResult()
 This function download trace result file:
-  -Traced section screenshoot
-  -Traced section heatmap
-  -Traced screenshoot and heatmap overlayed.
+
+  - Traced section screenshoot
+  - Traced section heatmap
+  - Traced screenshoot and heatmap overlayed.
