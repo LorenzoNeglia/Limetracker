@@ -1,6 +1,6 @@
 # Limetracker
-Javascript plugin development for Eye tracking and Heatmaps construction of limesurvey section.
-Through the use of the integrated or external webcam, the user point of gaze (where is looking on the screen) is traced, the traced position is used for real time heatmap construction of the user screen, illustrating with different colors the level of looking attention placed in different elements on screen.
+Development of a Javascript plugin for Eye Tracking and Heatmaps creation of limesurvey section
+The subject observed by the user gets tracked by the external or internal webcam, the tracked position is used to develop a real time heatmap on the screen depicting with a range of colours the attention level of the user regarding different elements on the screen.
 
 # Quick Start
 ## First Step
@@ -32,7 +32,7 @@ Add the navigation bar Style
 
 <div id="hideCnv" onclick="printResult()">Print Heatmap and Screenshot</div>
 </div>
-```
+
 <style type="text/css">#heatmapContainer { width:100%; height:100%;position:absolute;}
   #btnBar{
   position: relative;
@@ -64,6 +64,7 @@ Add the navigation bar Style
 	top:1px;
 }
 </style>
+```
 ### hideCanvas()
 This function hide and show the heatmap on screen.
 
