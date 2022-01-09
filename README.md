@@ -29,7 +29,7 @@ This function hide and show the heatmap on screen.
 This function pause and resume the eye tracker and heatmap construtcion.
 
 ### printResult()
-This function download the 3 file:
-  Traced section screenshoot
-  Traced section heatmap
-  Traced screenshoot and heatmap overlayed.
+This function download trace result file:
+  -Traced section screenshoot
+  -Traced section heatmap
+  -Traced screenshoot and heatmap overlayed.
