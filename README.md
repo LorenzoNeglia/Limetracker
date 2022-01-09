@@ -33,7 +33,8 @@ Add the navigation bar Style
 <div id="hideCnv" onclick="printResult()">Print Heatmap and Screenshot</div>
 </div>
 
-<style type="text/css">#heatmapContainer { width:100%; height:100%;position:absolute;}
+<style type="text/css">
+  #heatmapContainer { width:100%; height:100%;position:absolute;}
   #btnBar{
   position: relative;
   z-index: 1;
