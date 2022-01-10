@@ -38,7 +38,7 @@ if the url is different use the following method to get the file url.
 
 ### Get JS file URL
 
-On the Section description click on link add button
+On the Section description click on "link add" button
 
 ![Link](https://user-images.githubusercontent.com/82229242/148762396-cc4bca18-2e24-49dd-b6a7-aa3d5373e7c6.PNG)
 
