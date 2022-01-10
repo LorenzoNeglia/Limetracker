@@ -28,7 +28,15 @@ Import the file in Limesurvey resources folder.
 
 ![image](https://user-images.githubusercontent.com/82229242/148761425-785e15cf-30d4-4e5c-93d5-fd0b417f588f.png)
 
-## Get JS file URL
+## Get Limesurvey Project Code
+
+In the main section you can see the project code used in the file url on resources folder.
+
+![image](https://user-images.githubusercontent.com/82229242/148763943-ad1a060d-9702-4631-8730-e0617e86b7a6.png)
+
+if the url is different use the following method to get the file url.
+
+### Get JS file URL
 
 On the Section description click on link add button
 
@@ -47,13 +55,6 @@ You will se the file url on description text area, ready to use in html code.
 ![image](https://user-images.githubusercontent.com/82229242/148762805-6fc0470f-4995-41b9-8eb2-3b183fe87108.png)
 
 ![image](https://user-images.githubusercontent.com/82229242/148763380-e0bb372f-8dc3-4ed4-a32b-ed1374978f55.png)
-
-## Get Limesurvey Project Code
-
-In the main section you can see the project code used in the file url on resources folder.
-
-![image](https://user-images.githubusercontent.com/82229242/148763829-9306ff21-c0f4-4659-acd4-2013dfbb03bc.png)
-
 # Quick Start
 
 ## First Step
