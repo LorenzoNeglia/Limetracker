@@ -17,21 +17,29 @@ WebGazer.js is an eye tracking library that uses common webcams to infer the eye
 https://webgazer.cs.brown.edu/
 
 ## html2canvas
+
 Screenshots with JavaScript
+
 http://html2canvas.hertzen.com/
 
 ## Import these script in Limesurvey
+
 Import the file in Limesurvey resources folder.
+
 ![image](https://user-images.githubusercontent.com/82229242/148761425-785e15cf-30d4-4e5c-93d5-fd0b417f588f.png)
 
 ## Get JS file URL
+
 On the Section description click on link add button
+
 ![Link](https://user-images.githubusercontent.com/82229242/148762396-cc4bca18-2e24-49dd-b6a7-aa3d5373e7c6.PNG)
 
 Search the file on the resources folder
+
 ![Server](https://user-images.githubusercontent.com/82229242/148762602-e57c18b9-f095-48a7-998f-cbec13c3e731.PNG)
 
 Add the file
+
 You will se the file url on description text area, ready to use in html code.
 
 ![image](https://user-images.githubusercontent.com/82229242/148762805-6fc0470f-4995-41b9-8eb2-3b183fe87108.png)
