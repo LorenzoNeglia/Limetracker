@@ -40,6 +40,8 @@ Search the file on the resources folder
 
 Add the file
 
+![file](https://user-images.githubusercontent.com/82229242/148763221-5089aa08-7307-487b-b2ce-5d8b3f21073b.PNG)
+
 You will se the file url on description text area, ready to use in html code.
 
 ![image](https://user-images.githubusercontent.com/82229242/148762805-6fc0470f-4995-41b9-8eb2-3b183fe87108.png)
@@ -61,6 +63,7 @@ Create the navigation bar.
 <div id="hideCnv" onclick="hideCanvas()">Show Realtime Heatmap</div>
 
 <div id="hideCnv" onclick="stopTrace()">Stop Trace</div>
+
 
 <div id="hideCnv" onclick="printResult()">Print Heatmap and Screenshot</div>
 </div>
