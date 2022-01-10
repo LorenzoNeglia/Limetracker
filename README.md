@@ -76,7 +76,7 @@ Create the navigation bar.
 
 <div id="hideCnv" onclick="printResult()">Print Heatmap and Screenshot</div>
 </div>
-```
+
 ## Third Step
 Add the navigation bar Style
 ```html
@@ -133,3 +133,136 @@ This function download trace result file:
   - Traced section screenshoot
   - Traced section heatmap
   - Traced screenshoot and heatmap overlayed.
+ 
+## Toggle Calibration
+Copy this code to insert Calibration Section
+```html
+<style type="text/css">#calibrationContainer {
+    position: relative;
+            width: 100%;
+    height: 600px;
+  border-style: solid;
+  border-width: 5px;
+ }
+ #upLft{
+   position:absolute;
+   width:30px;
+   height:30px;
+   top:0px;
+   left:0px;
+   background :red;
+  }
+   #upRgt{
+   position:absolute;
+   width:30px;
+   height:30px;
+   top:0px;
+   right:0px;
+   background :red;
+  }
+   #upCen{
+   position:absolute;
+   width:30px;
+   height:30px;
+   right:0px;
+   left:0px;
+   margin:auto;
+   background :red;
+  }
+   #downLft{
+   position:absolute;
+   width:30px;
+   height:30px;
+   bottom:0px;
+   left:0px;
+   background :red;
+  }
+   #downRgt{
+   position:absolute;
+   width:30px;
+   height:30px;
+   bottom:0px;
+   right:0px;
+   background :red;
+  }
+  #downCen{
+   position:absolute;
+   width:30px;
+   height:30px;
+   bottom:0px;
+   right:0px;
+   left:0px;
+   margin:auto;
+   background :red;
+  }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><script>
+  $(document).ready( function() {
+  const cCounter = [0,0,0,0,0,0];
+  $("#upLft").on("click", function() {
+     cCounter[0]++;
+     if(cCounter[0]==3){
+     $('#upLft').css('background', 'green');
+     cCounter[0]=0; 
+     }
+})
+
+$("#upRgt").on("click", function() {
+     cCounter[2]++;
+     if(cCounter[2]==3){
+     $('#upRgt').css('background', 'green');
+     cCounter[1]=0;  
+     }
+})
+$("#upCen").on("click", function() {
+     cCounter[1]++;
+     if(cCounter[1]==3){
+     $('#upCen').css('background', 'green');
+     cCounter[2]=0; 
+     } 
+})
+$("#downLft").on("click", function() {
+     cCounter[3]++;
+     if(cCounter[3]==3){
+     $('#downLft').css('background', 'green');
+     cCounter[3]=0; 
+} 
+})
+$("#downRgt").on("click", function() {
+     cCounter[4]++;
+     if(cCounter[4]==3){
+     $('#downRgt').css('background', 'green'); 
+     cCounter[4]=0; 
+     }
+})
+$("#downCen").on("click", function() {
+     cCounter[5]++;
+     if(cCounter[5]==3){
+     $('#downCen').css('background', 'green');
+     cCounter[5]=0;  
+     }
+})
+ });
+</script>
+<h1>Eye-Tracking Calibration</h1>
+
+<p>Questa sezione ha il compito di calibrare lo strumento di Eye Tracking</p>
+
+<p>Clicca 3 volte i quadrati rossi.</p>
+
+<p>Quando tutti i quadrati rossi diventeranno verdi la calibrazione è terminata</p>
+
+<div id="calibrationContainer">
+<div id="upLft"> </div>
+
+<div id="upCen"> </div>
+
+<div id="upRgt"> </div>
+
+<div id="downLft"> </div>
+
+<div id="downCen"> </div>
+
+<div id="downRgt"> </div>
+</div>
+```
