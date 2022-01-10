@@ -266,3 +266,4 @@ $("#downCen").on("click", function() {
 <div id="downRgt"> </div>
 </div>
 ```
+The tool have self calibration, every click from the user improve the tool accuracy
