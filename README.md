@@ -239,11 +239,11 @@ $("#downCen").on("click", function() {
 </script>
 <h1>Eye-Tracking Calibration</h1>
 
-<p>Questa sezione ha il compito di calibrare lo strumento di Eye Tracking</p>
+<p>This section is for calibrating the Eye Tracking tool</p>
 
-<p>Clicca 3 volte i quadrati rossi.</p>
+<p>Look carefully at the red squares and click every square 3 times</p>
 
-<p>Quando tutti i quadrati rossi diventeranno verdi la calibrazione è terminata</p>
+<p>When all the red squares turn green, the calibration is complete</p>
 
 <div id="calibrationContainer">
 <div id="upLft"> </div>
