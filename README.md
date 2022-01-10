@@ -46,6 +46,9 @@ You will se the file url on description text area, ready to use in html code.
 
 ![image](https://user-images.githubusercontent.com/82229242/148762805-6fc0470f-4995-41b9-8eb2-3b183fe87108.png)
 
+![image](https://user-images.githubusercontent.com/82229242/148763380-e0bb372f-8dc3-4ed4-a32b-ed1374978f55.png)
+
+
 # Quick Start
 
 ## First Step
