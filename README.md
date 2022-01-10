@@ -76,7 +76,7 @@ Create the navigation bar.
 
 <div id="hideCnv" onclick="printResult()">Print Heatmap and Screenshot</div>
 </div>
-
+```
 ## Third Step
 Add the navigation bar Style
 ```html
