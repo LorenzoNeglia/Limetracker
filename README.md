@@ -137,7 +137,8 @@ This function download trace result file:
 ## Toggle Calibration
 Copy this code on your Limesurvey Section to insert Calibration Area
 ```html
-<style type="text/css">#calibrationContainer {
+<style type="text/css">
+#calibrationContainer {
     position: relative;
             width: 100%;
     height: 600px;
