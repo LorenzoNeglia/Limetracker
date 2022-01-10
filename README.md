@@ -135,7 +135,7 @@ This function download trace result file:
   - Traced screenshoot and heatmap overlayed.
  
 ## Toggle Calibration
-Copy this code to insert Calibration Section
+Copy this code on your Limesurvey Section to insert Calibration Area
 ```html
 <style type="text/css">#calibrationContainer {
     position: relative;
