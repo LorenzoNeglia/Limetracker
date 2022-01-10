@@ -80,14 +80,6 @@ Create the navigation bar.
 ## Third Step
 Add the navigation bar Style
 ```html
-<div id="btnBar">
-<div id="hideCnv" onclick="hideCanvas()">Show Realtime Heatmap</div>
-
-<div id="hideCnv" onclick="stopTrace()">Stop Trace</div>
-
-<div id="hideCnv" onclick="printResult()">Print Heatmap and Screenshot</div>
-</div>
-
 <style type="text/css">
   #heatmapContainer { width:100%; height:100%;position:absolute;}
   #btnBar{
