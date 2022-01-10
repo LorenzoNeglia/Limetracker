@@ -32,7 +32,7 @@ Import the file in Limesurvey resources folder.
 
 In the main section you can see the project code used in the file url on resources folder.
 
-![image](https://user-images.githubusercontent.com/82229242/148763943-ad1a060d-9702-4631-8730-e0617e86b7a6.png)
+![image](https://user-images.githubusercontent.com/82229242/148764558-37881e69-7743-4b9c-9ee8-c2522b7c3cf4.png)
 
 if the url is different use the following method to get the file url.
 
