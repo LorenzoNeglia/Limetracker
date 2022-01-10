@@ -48,6 +48,11 @@ You will se the file url on description text area, ready to use in html code.
 
 ![image](https://user-images.githubusercontent.com/82229242/148763380-e0bb372f-8dc3-4ed4-a32b-ed1374978f55.png)
 
+## Get Limesurvey Project Code
+
+In the main section you can see the project code used in the file url on resources folder.
+
+![image](https://user-images.githubusercontent.com/82229242/148763829-9306ff21-c0f4-4659-acd4-2013dfbb03bc.png)
 
 # Quick Start
 
