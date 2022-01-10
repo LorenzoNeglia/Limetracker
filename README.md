@@ -54,10 +54,10 @@ You will se the file url on description text area, ready to use in html code.
 ## First Step
 Import the following JS file on the limesurevey section you want to trace.
 ```html
-<script src="/upload/surveys/272621/files/heatmap.js"></script>
-<script src="/upload/surveys/272621/files/webgazer.js"></script>
-<script src="/upload/surveys/272621/files/html2canvas.js"></script>
-<script src="/upload/surveys/272621/files/limetracker.js"></script>
+<script src="/upload/surveys/<Your Project Code>/files/heatmap.js"></script>
+<script src="/upload/surveys/<Your Project Code>/files/webgazer.js"></script>
+<script src="/upload/surveys/<Your Project Code>/files/html2canvas.js"></script>
+<script src="/upload/surveys/<Your Project Code>/files/limetracker.js"></script>
 ```
 ## Second Step
 Create the navigation bar.
